@@ -3,6 +3,7 @@ package com.nwmsu.laurelreview.model;
 import javax.persistence.*;
 
 @Entity
+@Table
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	

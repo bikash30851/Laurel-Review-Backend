@@ -6,6 +6,7 @@ import java.util.List;
 import javax.persistence.*;
 
 @Entity
+@Table
 public class Issue implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	

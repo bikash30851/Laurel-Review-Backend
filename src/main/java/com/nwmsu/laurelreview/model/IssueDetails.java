@@ -12,6 +12,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 //import javax.persistence.JoinColumn;
 //import javax.persistence.ManyToOne;
 @Entity
+@Table
+
 public class IssueDetails implements Serializable{
 	/**
 	 * 

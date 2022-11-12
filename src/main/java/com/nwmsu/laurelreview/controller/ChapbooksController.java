@@ -20,7 +20,7 @@ import com.nwmsu.laurelreview.repo.ChapBookRepo;
 
 import ch.qos.logback.core.joran.util.beans.BeanUtil;
 
-@CrossOrigin(origins = {"http://localhost:3000","http://localhost:3001"})
+@CrossOrigin(origins = {"http://localhost:3000","http://localhost:3001", "https://ornate-marigold-0c16a9.netlify.app/"})
 @RestController
 @RequestMapping("api")
 public class ChapbooksController {

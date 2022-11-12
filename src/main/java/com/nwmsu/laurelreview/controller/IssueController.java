@@ -19,7 +19,7 @@ import com.nwmsu.laurelreview.repo.IssueRepo;
 import com.nwmsu.laurelreview.model.Issue;
 import com.nwmsu.laurelreview.model.IssueDetails;
 
-@CrossOrigin(origins = {"http://localhost:3000","http://localhost:3001"})
+@CrossOrigin(origins = {"http://localhost:3000","http://localhost:3001", "https://ornate-marigold-0c16a9.netlify.app/"})
 @RestController
 @RequestMapping("api")
 public class IssueController {
